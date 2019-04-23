@@ -7,7 +7,7 @@
 
 #### Issues:
   - Recording right after run (Need record by click record button)
-  - Aspect ration issues: with record and play picture, also with timestamp text
+  - Aspect ratio issues: with record and play picture, also with timestamp text
   - Text is static (Need dynamic timestamp with sprites sheet font)
   
 #### Challenges:
