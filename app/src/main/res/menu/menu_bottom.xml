@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019. Levashkin Konstantin
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_tab_rec"
+        android:icon="@drawable/ic_rec"
+        android:title="@string/bottom_menu_record" />
+    <item
+        android:id="@+id/bottom_tab_play"
+        android:icon="@drawable/ic_play"
+        android:title="@string/bottom_menu_play" />
+    <item
+        android:id="@+id/bottom_tab_stream"
+        android:icon="@drawable/ic_stream"
+        android:title="@string/bottom_menu_stream" />
+</menu>

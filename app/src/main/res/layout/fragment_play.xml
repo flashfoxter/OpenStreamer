@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".gl.PlayMovieActivity" >
+
+            <Button
+                android:id="@+id/play_stop_button"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/play_button_text"
+                />
+
+            <Spinner
+                android:id="@+id/playMovieFile_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/play_stop_button"
+                android:layout_toRightOf="@+id/play_stop_button" />
+
+            <CheckBox
+                android:id="@+id/locked60fps_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/movie_texture_view"
+                android:layout_below="@+id/play_stop_button"
+                android:text="@string/locked60fps_checkbox" />
+
+            <CheckBox
+                android:id="@+id/loopPlayback_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/locked60fps_checkbox"
+                android:layout_alignBottom="@+id/locked60fps_checkbox"
+                android:layout_toRightOf="@+id/locked60fps_checkbox"
+                android:text="@string/loopPlayback_checkbox" />
+
+            <TextureView
+                android:id="@+id/movie_texture_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/play_stop_button"
+                android:layout_below="@+id/locked60fps_checkbox" />
+
+        </RelativeLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>
