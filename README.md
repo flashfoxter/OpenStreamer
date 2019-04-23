@@ -14,6 +14,8 @@
   - OpenGL text print
   - OpenGL offscreen buffer
   - Video record with annotations
+
+  [debug-apk](https://www.dropbox.com/s/whx0wboqhf7iuk8/app-debug.apk?dl=0)
   
   
   
